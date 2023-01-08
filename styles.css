@@ -4,7 +4,7 @@ body {
   width: 1440px;
   height: 2590px;
   margin: auto;
-  font-family: "Robota", sans-serif;
+  font-family: 'Robota', sans-serif;
 }
 .navigation {
   width: 1440px;
@@ -61,16 +61,17 @@ body {
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.hero-sectoin-text {
+.hero-sectoin h1 {
   width: 550px;
   height: 120px;
-  margin-bottom: 15%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 56px;
+  transform: translateY(150%);
+  color: #ffffff;
 }
-.hero-sectoin-text button {
+.hero-sectoin button {
   width: 169px;
   height: 56px;
   border: none;
@@ -80,19 +81,14 @@ body {
   padding: 16px 34px;
   color: #ffffff;
   font-size: 16px;
-  margin: 0 auto;
   cursor: pointer;
-  transform: translateX(105%);
+  margin-left: 615px;
+  transform: translateY(400%);
 }
-.hero-sectoin-text button:hover {
+.hero-sectoin button:hover {
   background-color: dimgray;
 }
-.hero-sectoin h1 {
-  font-size: 56px;
-  color: #ffffff;
-  justify-content: center;
-  text-align: center;
-}
+
 .information-sectoin {
   width: 1440px;
   height: 300px;
@@ -117,7 +113,7 @@ body {
   justify-content: center;
   margin: 0px;
 }
-.images-list h3 {
+.images-list h2 {
   font-size: 36px;
   color: #2e2f42;
   display: flex;
@@ -139,7 +135,7 @@ body {
   height: 732px;
   background-color: #f4f4fd;
 }
-.team-sectoin h3 {
+.team-sectoin h2 {
   color: #2e2f42;
   font-size: 36px;
   display: flex;
@@ -168,7 +164,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.team-member h4 {
+.team-member h3 {
   font-size: 20px;
   margin-bottom: 0;
 }
@@ -182,25 +178,25 @@ footer {
   height: 310px;
   background-color: #2e2f42;
 }
-.conclusion {
-  width: 264px;
-  height: 110px;
-  transform: translateY(100%);
-  margin-left: 156px;
-}
-.conclusion a {
+footer a {
   text-decoration: none;
   font-size: 20px;
   color: #4d5ae5;
   letter-spacing: 1px;
   font-size: 18px;
-  margin-bottom: 0;
+  margin-left: 156px;
+  display: flex;
+  transform: translateY(500%);
   text-transform: uppercase;
 }
-.conclusion a span {
+footer a span {
   color: #f4f4fd;
 }
-.conclusion p {
+footer p {
   font-size: 16px;
+  margin-left: 156px;
+  transform: translateY(150%);
   color: #e7e9fc;
+  width: 264px;
+  height: 72px;
 }
