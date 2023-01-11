@@ -107,10 +107,8 @@ body {
   align-items: center;
 }
 .information-sectoin h3 {
-  font-size: 36px;
+  font-size: 20px;
   color: #2e2f42;
-  display: flex;
-  justify-content: center;
   margin: 0px;
 }
 .images-list h2 {
